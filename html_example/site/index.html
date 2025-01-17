@@ -1,68 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="A simple landing page">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A simple landing page" />
     <title>Landing Page</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px;
-            text-align: center;
-        }
-        section {
-            padding: 20px;
-            text-align: center;
-        }
-        .hero {
-            background: #f4f4f4;
-            padding: 50px 20px;
-        }
-        .cta {
-            margin-top: 20px;
-        }
-        .cta button {
-            background-color: #4CAF50;
-            color: white;
-            border: none;
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            border-radius: 5px;
-        }
-        .cta button:hover {
-            background-color: #45a049;
-        }
-        footer {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
-            position: relative;
-        }
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      header {
+        background-color: #4caf50;
+        color: white;
+        padding: 20px;
+        text-align: center;
+      }
+      section {
+        padding: 20px;
+        text-align: center;
+      }
+      .hero {
+        background: #f4f4f4;
+        padding: 50px 20px;
+      }
+      .cta {
+        margin-top: 20px;
+      }
+      .cta button {
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+      .cta button:hover {
+        background-color: #45a049;
+      }
+      footer {
+        background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 10px 0;
+        position: relative;
+      }
     </style>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <h1>Welcome to Our Landing Page</h1>
+      <h1>Welcome to Our Landing Page</h1>
     </header>
+
     <section class="hero">
-        <h2>Your Journey Starts Here</h2>
-        <p>Discover amazing features and opportunities waiting for you.</p>
-        <div class="cta">
-            <button onclick="alert('Thank you for signing up!')">Get Started</button>
-        </div>
+      <h2>Your Journey Starts Here</h2>
+      <p>Discover amazing features and opportunities waiting for you.</p>
+      <div class="cta">
+        <button onclick="alert('Thank you for signing up!')">
+          Get Started
+        </button>
+      </div>
     </section>
+
+    <div
+      style="
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        margin-top: 20px;
+      "
+    >
+      <div style="width: 45%">
+        <img src="./assets/SUPERMAN2.webp" style="max-width: 100%" />
+      </div>
+      <div style="width: 45%">
+        <img src="./assets/FLASH.webp" style="max-width: 100%" />
+      </div>
+    </div>
     <footer>
-        <p>&copy; 2025 Landing Page Co. All rights reserved.</p>
+      <p>&copy; 2025 Landing Page Co. All rights reserved.</p>
     </footer>
-</body>
+  </body>
 </html>
